@@ -1,0 +1,19 @@
+{
+  "name": "ebana-reminder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EBANA reminder app",
+  "scripts": {
+    "build": "echo Web assets ready",
+    "android:add": "cap add android",
+    "android:sync": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3",
+    "@capacitor/local-notifications": "^7.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
